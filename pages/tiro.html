@@ -5,146 +5,48 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <style>
-        #titulo{
-	        font-family: Arial, Helvetica, sans-serif;
-	        text-align: center;
-            color: #0C3D81;
-            font-size: 80px;
-	    }
-
-        header {
-            width: 100%;
-            max-width: 1000px;
-            margin:auto;
-            border-radius:100px ;
-        }
-        nav {
-            background:#270d18 ;
-            margin: 20px;
-            position: relative;
-            border-bottom: none;
-        }
-
-        nav ul{
-            list-style: none;
-            padding-right:0;
-            margin:0;
-            overflow:hidden ;
-        }
-        nav > ul > li{
-            float:left;
-        }
-        nav ul li a{
-            text-decoration:none ;
-            color:#eeeced;
-            display: block;
-            padding:10px 20px;
-        }
-        nav ul li a:hover {
-            background: #636262;
-        }
-        nav > ul > li:hover div{
-            display:table;
-        }
-
-    /*Submenu*/
-
-        nav ul li div{
-            width:960px;
-            position:absolute;
-            left:0;
-            background:rgb(138, 137, 137);
-            box-sizing:border-box;
-            display:none;
-        }
-        nav ul li div ul{
-            width: 20%;
-            display: table-cell;
-            border-right: 1px solid rgba(255,255,255,.5);
-            box-sizing: border-box;
-        }
-        nav ul li div ul:last-child{
-            border:none;
-        }
-        nav ul li div ul .register{
-            background: rgb(236, 18, 18);
-            color:#fff;
-        }
-        nav ul li div ul .titulo a{
-            color:#fff;
-            padding:10px 20px;
-        }
-        .register {background: #570527;text-align: left; width: 120px;
-            position: absolute;
-        	top: 60%;
-	        left: 800px;
-        }
-        
-        .login {background: #570527;text-align: left;  width: 120px;
-            position: absolute;
-        	top: 30%;
-	        left: 800px;
-        }
-    
-        nav ul li div ul .titulo a:hover{
-            background:none;
-        }
-        nav ul li div ul li a{
-            color: black;
-        }
-        nav ul li div ul li a:hover{
-            color:white;
-        }
-
-
-    
-    </style>
+   
 </head>
 <body>
           <header>
             
-            <nav>
-                <img src="../images/logoso.png" alt="Logo png Sportech Offer" width="150" height="110"/>
-                <ul>
-                    <div>
-                        <li class="register"><a href="#">Registrate</a><br/>
-                        <div>
-                            <ul>
-                                <li><a href="">Persona</a></li>
-                                <li><a href="">Empresa</a></li>
-                            </ul>    
-                        
-
-                    </li>
-                        <li class="login"><a href="#">Ingreso</a></li>
-                    </div>
-                    <li><a href="#">Conocemos</a></li>
-                    <li><a href="#">Afiliate</a></li>
-                    <li><a href="#">Deportes</a>
-                 <div>
-                        <ul>
-                            <li><a href="Equipo.html">Equipo</a></li>
-                            <li><a href="Pelota.html">Pelota</a></li>
-                            <li><a href="Acuaticos.html">Acuaticos</a></li>
-                            <li><a href="Montaña.html">Montaña</a></li>
-                            <li><a href="Aventura.html">Aventura</a></li>
-                            <li><a href="Fuerza.html">Fuerza</a></li>
-                            <li><a href="Extremos.html">Extremos</a></li>
-                            <li><a href="Tiro.html">Tiro</a></li>
-                            <li><a href="Motor.html">Motor</a></li>
-                        </ul>
-                    </div>
-
-              
-
-                </li>
-                    <li><a href="#">Suscribete</a></li>
-                    <li><a href="#">Ofertas</a></li>
-                    <li><a href="#">Eventos</a></li>
-                </div>
-                </ul>
-            </nav>
+            <!-- Barra de navegación -->
+        <nav>
+          <ul>
+              <li><a href="#"><b>Acerca de</b></a>
+              <div>
+                  <ul>
+                      <li><a href="./pages/miembros.html">equipo</a></li>
+                  </ul>
+              </div>
+              </li>
+              <li><a href="#"><b>Eventos</b></a></li>
+              <a href="index.html"><img src="img/logo.png" alt="Logo png Sportech Offer" width="150" height="110"/></a>
+              <li><a href="#"><b>Oferta</b></a>
+              <div>
+                  <ul>
+                      <li><a href="equipo.html">equipo</a></li>
+                      <li><a href="pelota.html">pelota</a></li>
+                      <li><a href="acuaticos.html">acuticos</a></li>
+                      <li><a href="montaña.html">montaña</a></li>
+                      <li><a href="fuerza.html">fuerza</a></li>
+                      <li><a href="extremos.html">extremos</a></li>
+                      <li><a href="tiro.html">tiro</a></li>
+                      <li><a href="motor.html">motor</a></li>
+                      <li><a href="fuerza.html">fuerza</a></li>
+                  </ul>
+              </div>
+              </li>
+              <li><a href="#"><b>Contacto</b></a>
+              <div>
+                  <ul>
+                      <li><a href="./pages/mail.html">Escribenos un mail</a></li>
+                      <li><a href="./pages/cc.html">Equipo SAC</a></li>
+                      <li><a href="./pages/ubicacion.html">Úbicanos</a></li>                           
+                  </ul>
+              </div></li>
+          </ul>
+      </nav>
         </header>
 
 <h1 id="titulo"> Tiro <h1><br>
